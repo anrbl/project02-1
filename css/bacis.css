@@ -1,0 +1,87 @@
+.inner {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px
+}
+
+.sec {
+    padding: 100px 0;
+}
+
+.sec .tit {
+    margin: 0 auto 30px auto;
+}
+
+.sec .tit h2 {
+    margin: 0 0 10px 0;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.sec .tit p {
+    word-break: keep-all;
+    font-size: 15px;
+    line-height: 19px;
+}
+
+body {
+    min-height: 150vh;
+}
+
+/* header */
+
+
+.header .inner {
+    display: flex;
+    align-items: center;
+    height: 100px;
+}
+
+.header .gnb {
+    margin: 0 0 0 auto;
+}
+
+.header .gnb>ul {
+    display: flex;
+    gap: 40px;
+}
+
+.header .service {
+    margin: 0 0 0 50px;
+}
+
+/* main */
+
+.main_visual .slogan {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+}
+
+.main_visual .slogan h3 {
+    margin: 0 0 10px 0;
+    color: #fff;
+    font-size: 50px;
+    font-weight: 700;
+    text-transform: uppercase;
+    /* text-transform: uppercase; 글자대문자 */
+    text-shadow: 0 0 3px #000;
+}
+
+.main_visual .slogan p {
+    color: #fff;
+    font-size: 20px;
+    text-transform: capitalize;
+    text-shadow: 0 0 3px #000;
+}
+
+
+/* footer */
+.footer {
+    padding: 50px 0;
+    background: #333;
+    color: #fff;
+    text-align: center;
+}
